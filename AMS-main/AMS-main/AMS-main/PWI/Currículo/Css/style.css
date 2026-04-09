@@ -34,3 +34,32 @@ html, body{
     height: 100%;
     background: var(--cor-fundo);
 }
+
+section{
+    display: block;
+    width: 640px;
+    margin: auto;
+    padding: var(--espaco-padrao);
+}
+
+header{
+    width:100%;
+    height: 50px;
+    background: var(--cor-header);
+}
+
+
+h1{
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    color: var(--cor-branca);
+
+}
+
+
+nav a{
+    text-decoration: none;
+    color: var(--cor-branca);
+    font-size: 30px;
+}
