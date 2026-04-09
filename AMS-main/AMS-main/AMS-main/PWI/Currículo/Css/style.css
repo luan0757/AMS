@@ -60,6 +60,6 @@ h1{
 
 nav a{
     text-decoration: none;
-    color: var(--cor-branca);
+    color: var(--cor-texto);
     font-size: 30px;
 }
