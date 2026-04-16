@@ -88,10 +88,11 @@ footer{
     width: 100%;
     height: 25px;
     background: var(--cor-footer);
-    position: absolute;
+    position: fixed;
     bottom: 0;
     display: block;
     clear: both;
+    text-align: center;
 }
 
 h2{
@@ -109,8 +110,8 @@ hr{
 }
 
 figure{
-    width: 105px;
-    height: 105;
+    width:130px;
+    height: 130px;
     background: var(--cor-branca);
     border-radius: 75px;
     margin: var(--espaco-padrao) auto;
