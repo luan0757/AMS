@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresa de Tecnologia</title>
+  <link rel="icon" type="image/png" href="predio.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <audio id="bgMusic" src="musica.mp3" loop></audio>
+  <button id="musicToggle" class="music-toggle" aria-label="Ligar/desligar música">🔇</button>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">
+        <span class="logo__icon">&lt;/&gt;</span>
+        <span class="logo__text">Empresa <span class="text-accent">de Tecnologia</span></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Início</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+      <video class="hero__video" autoplay muted loop playsinline>
+        <source src="hero-video.mp4" type="video/mp4">
+      </video>
+      <div class="hero__overlay"></div>
+
+      <div class="container hero__content">
+        <span class="tag">Soluções em tecnologia</span>
+        <h1 class="hero__title">
+          Empresa <span class="text-accent">de Tecnologia</span>
+        </h1>
+        <p class="hero__subtitle">
+          Cuidamos da tecnologia para que você possa focar no que realmente importa.
+          Sites, computadores, celulares e muito mais — tudo em um só lugar.
+        </p>
+        <div class="hero__actions">
+          <a href="#servicos" class="btn btn--primary">Conheça nossos serviços</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="section__header">
+          <span class="tag">Quem somos</span>
+          <h2 class="section__title">Sobre a <span class="text-accent">Empresa</span></h2>
+          <p class="section__subtitle">
+            Simplificando a tecnologia para pessoas e empresas.
+          </p>
+        </div>
+
+        <div class="about">
+          <div class="about__card">
+            <p class="about__text">
+              A <strong>Empresa de Tecnologia</strong> nasceu para oferecer soluções tecnológicas
+              completas, atendendo tanto pessoas físicas quanto empresas que precisam de suporte
+              confiável e de qualidade. Desde a criação de sites até a manutenção de celulares e
+              computadores, nosso objetivo é entregar serviços práticos, seguros e acessíveis.
+            </p>
+            <p class="about__text">
+              Trabalhamos com atenção a cada detalhe, buscando sempre entender a necessidade real
+              de cada cliente para oferecer a solução mais adequada — seja você uma pessoa que
+              precisa consertar o celular ou uma empresa que deseja modernizar sua presença digital.
+            </p>
+
+            <div class="about__photos">
+              <img src="foto1.jpg" alt="Técnico consertando celular" class="about__photo">
+              <img src="foto2.jpg" alt="Detalhe de reparo de celular" class="about__photo">
+            </div>
+
+            <div class="about__grid">
+              <div class="about__item">
+                <span class="about__item-icon">01</span>
+                <h3 class="about__item-title">Para pessoas</h3>
+                <p class="about__item-text">Suporte técnico próximo, rápido e de confiança.</p>
+              </div>
+              <div class="about__item">
+                <span class="about__item-icon">02</span>
+                <h3 class="about__item-title">Para empresas</h3>
+                <p class="about__item-text">Soluções tecnológicas que acompanham seu crescimento.</p>
+              </div>
+              <div class="about__item">
+                <span class="about__item-icon">03</span>
+                <h3 class="about__item-title">Compromisso</h3>
+                <p class="about__item-text">Qualidade e transparência em cada atendimento.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section section--alt" id="servicos">
+      <div class="container">
+        <div class="section__header">
+          <span class="tag">O que fazemos</span>
+          <h2 class="section__title">Nossos <span class="text-accent">Serviços</span></h2>
+          <p class="section__subtitle">
+            Soluções completas em tecnologia para o seu dia a dia.
+          </p>
+        </div>
+
+        <div class="services">
+          <article class="service-card">
+            <div class="service-card__icon">🌐</div>
+            <h3 class="service-card__title">Fazemos sites</h3>
+            <p class="service-card__text">
+              Criação de sites modernos e responsivos, pensados para representar bem a sua marca
+              e funcionar perfeitamente em qualquer dispositivo.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">📱</div>
+            <h3 class="service-card__title">Consertamos celulares</h3>
+            <p class="service-card__text">
+              Manutenção e reparo de smartphones com agilidade e qualidade, resolvendo desde
+              problemas simples até defeitos mais complexos.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">🖥️</div>
+            <h3 class="service-card__title">Montamos computadores</h3>
+            <p class="service-card__text">
+              Montagem de computadores sob medida, de acordo com a sua necessidade e orçamento,
+              com componentes confiáveis.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">⚙️</div>
+            <h3 class="service-card__title">Outros serviços de tecnologia</h3>
+            <p class="service-card__text">
+              Também oferecemos outras soluções em tecnologia sob demanda, adaptadas às
+              necessidades específicas de cada cliente.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="contato">
+      <div class="container">
+        <div class="section__header">
+          <span class="tag">Fale com a gente</span>
+          <h2 class="section__title">Entre em <span class="text-accent">Contato</span></h2>
+          <p class="section__subtitle">
+            Estamos prontos para ajudar você ou a sua empresa.
+          </p>
+        </div>
+
+        <div class="contact">
+          <div class="contact-card">
+            <div class="contact-card__icon">💬</div>
+            <h3 class="contact-card__title">WhatsApp</h3>
+            <p class="contact-card__text">(14) 12345-6789</p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card__icon">✉️</div>
+            <h3 class="contact-card__title">E-mail</h3>
+            <p class="contact-card__text">contatoempresatecnologia@gmail.com</p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card__icon">📷</div>
+            <h3 class="contact-card__title">Instagram</h3>
+            <p class="contact-card__text">Empresa de Tecnologia</p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card__icon">📍</div>
+            <h3 class="contact-card__title">Endereço</h3>
+            <p class="contact-card__text">Rua Avestruz, 123</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__text">© 2026 - Empresa de Tecnologia</p>
+      <button class="footer__top" id="backToTop" aria-label="Voltar ao topo">↑</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
